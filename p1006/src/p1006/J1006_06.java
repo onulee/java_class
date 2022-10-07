@@ -48,7 +48,7 @@ public class J1006_06 {
 			case 2:
 				System.out.println("[[ 성적수정 선택 ]]");
 				System.out.println("무슨과목을 수정하시겠습니까?(0.이전페이지 이동)");
-				System.out.println("1.국어  2.영어  3.수학");
+				System.out.println("1.국어  2.영어  3.수학 0.이전페이지이동");
 				System.out.println("원하는 번호를 선택하세요.");
 				choice = scan.nextInt();
 				scan.nextLine();

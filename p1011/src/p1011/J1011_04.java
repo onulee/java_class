@@ -47,7 +47,45 @@ public class J1011_04 {
 				System.out.println();
 				break;
 			case 2:
-				System.out.println("프로그램 준비중");
+				System.out.println("[[ 성적 수정 ]]");
+				System.out.println("1. 국어");
+				System.out.println("2. 영어");
+				System.out.println("3. 수학");
+				System.out.println("0. 성적입력 취소");
+				System.out.println("------------");
+				System.out.println("수정할 과목을 선택하세요.>>");
+				choice = scan.nextInt();
+				//switch구문
+				switch (choice) {
+				case 1:
+					System.out.println("[[[ 국어 성적수정 ]]]");
+					//프로그램
+					System.out.println("현재 국어점수 : "+kor);
+					System.out.println("변경할 점수를 입력하세요.>>");
+					kor = scan.nextInt();
+					total = kor+eng+math;
+					avg = total/3.0;
+					System.out.println("변경 국어점수 : "+kor);
+					System.out.println();
+					break;
+				case 2:
+					System.out.println("[[[ 영어 성적수정 ]]]");
+					//프로그램
+					
+					break;
+				case 3:
+					System.out.println("[[[ 수학 성적수정 ]]]");
+					//프로그램
+					
+					break;
+
+				case 0:
+					System.out.println("[[[ 이전화면으로 이동 ]]]");
+					System.out.println();
+					break;
+				}
+				
+				
 				System.out.println();
 				break;
 			case 3:
@@ -62,14 +100,7 @@ public class J1011_04 {
 				break loop;
 			}//switch
 			
-			
-			
 		}//while
-		
-		
-		
-		
-		
 
 	}//main
 

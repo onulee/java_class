@@ -28,6 +28,9 @@ public class J1014_05 {
 		
 		System.out.println();
 		
+		//배열6개 scan입력
+		
+		
 		
 		
 		// 1-100까지 랜덤숫자 1개 출력하시오.

@@ -20,6 +20,10 @@ public class J1018_06 {
 		for(int i=0;i<6;i++) {
 			System.out.println("로또번호를 입력하세요.>>");
 			myLotto[i] = scan.nextInt();
+			if(myLotto[i]<1 || myLotto[i]>45) {
+				System.out.println("번호가 잘못입력되었습니다. 다시 입력하세요.");
+				i--;
+			}
 		}
 		
 		
@@ -47,6 +51,9 @@ public class J1018_06 {
 		}
 		System.out.println();
 		
+		
+		// 6. 당첨된 번호 개수
+		// 이중for문을 사용하면 됨.
 		
 		
 

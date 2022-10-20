@@ -55,6 +55,6 @@ public class J1020_01 {
 		
 		
 
-	}
+	}//main
 
-}
+}//class
